@@ -55,8 +55,8 @@ $circle.addEventListener('click', (event) => {
 
 
   const plus0ne = document.createElement('div');
-  plus0ne.classList.add('plus-onehundred');
-  plus0ne.textContent = '+1000';
+  plus0ne.classList.add('plus-one');
+  plus0ne.textContent = '+1';
   plus0ne.style.left = `${event.clientX - rect.left}px`;
   plus0ne.style.top = `${event.clientY - rect.top}px`;
 
